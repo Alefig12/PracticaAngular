@@ -1,0 +1,42 @@
+.header-section {
+  padding: 10px 0;
+}
+
+.banner-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.badge-blue {
+  background: #20417A;
+  border-radius: 0;
+  display: inline-block;
+  padding-right: 30px !important;
+  clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+}
+
+.badge-black {
+  background: black;
+  border-radius: 0;
+  padding: 5px 10px;
+  clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+}
+
+.badge-blue h5,
+.badge-black h6 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.footer-section {
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+  margin-top: 40px;
+}
+
+.footer-section p {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
